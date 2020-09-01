@@ -2,8 +2,8 @@
 # currently.
 
 class Player():
-    def __init__(self,name,current_room):
-        self.name = name
+    def __init__(self, current_room):
         self.current_room = current_room
+        self.items = []
     def __str__(self):
-        return f"{self.name} is in room {self.current_room}"
+        return f"is in room {self.current_room}"
