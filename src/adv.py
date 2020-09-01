@@ -122,7 +122,7 @@ while True:
             pass
         else:
             print('I dont recongize that command')
-            continue
+            pass
 
 # Print an error message if the movement isn't allowed.
 #
